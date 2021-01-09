@@ -1,4 +1,40 @@
 baseURL = "http://uk960214.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Koowoy Devs"
 theme = "mainroad"
+paginate = "10"
+
+[Author]
+  name = "Koowoy"
+  
+[Params]
+  description = "Koowoy Develops Yet Again Today" # Site description. Used in meta description
+  copyright = "Koowoy" # Footer copyright holder, otherwise will use site title
+  readmore = true # Show "Read more" button in list if true
+  authorbox = true # Show authorbox at bottom of pages if true
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
+  mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+
+[Params.style.vars]
+  highlightColor = "#e22d30" # Override highlight color
+
+[Params.logo]
+  title = "Koowoy Devs" # Logo title, otherwise will use site title
+  subtitle = "Koowoy Develops Yet Again Today" # Logo subtitle
+
+[Params.sidebar]
+  # Enable widgets in given order
+  widgets = ["categories", "recent", "search", "taglist", "social",]
+
+[Params.widgets]
+  recent_num = 3 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  instagram = "username"
+  linkedin = "username"
+  github = "username"
