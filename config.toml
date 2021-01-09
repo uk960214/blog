@@ -14,8 +14,7 @@ paginate = "10"
   authorbox = true # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
-  post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
-  mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  post_meta = ["author", "date", "categories"] # Order of post meta information
   dateformat = "2006-01-02" # Change the format of dates
 
 [Params.style.vars]
@@ -27,7 +26,7 @@ paginate = "10"
 
 [Params.sidebar]
   # Enable widgets in given order
-  widgets = ["categories", "recent", "search", "taglist", "social",]
+  widgets = ["categories", "recent", "search", "taglist", "social"]
 
 [Params.widgets]
   recent_num = 3 # Set the number of articles in the "Recent articles" widget
