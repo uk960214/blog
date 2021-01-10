@@ -24,7 +24,9 @@ draft: false
 # My Approach to the Solution
 * ## Initially
 
-> **Logic** <br> `Sort the input array in ascending order` => `loop through the array using forEach` => `in each iteration, map the array, adding the current value to the array` => `add all that to a result array` => `using Set, pick out unique values`
+> **Logic** 
+<br>
+ `Sort the input array in ascending order` => `loop through the array using forEach` => `in each iteration, map the array, adding the current value to the array` => `add all that to a result array` => `using Set, pick out unique values`
 
 Initially at this point, I thought using the map method and using Set to create an array of unique values was the crucial point of the solution.
 
@@ -37,7 +39,9 @@ Next prediction was that I had to much of the same sums, that somewhere in betwe
 * ## After couple failures
 At this point, I thought it had to be the map method, which wasn't working for me in the way I wanted to. So I simply turned to using nested for loop. 
 
-> **Logic** <br> `Sort the input array in ascending order` => `loop through the array using for` => `in each iteration, loop again using for and add the current value to all the following elements` => `add all that to a result array` => `using Set, pick out unique values`
+> **Logic** 
+<br>
+ `Sort the input array in ascending order` => `loop through the array using for` => `in each iteration, loop again using for and add the current value to all the following elements` => `add all that to a result array` => `using Set, pick out unique values`
 
 But (surprise, surprise!) it DIDN'T WORK.
 
@@ -46,7 +50,9 @@ But (surprise, surprise!) it DIDN'T WORK.
 # The Actual Problem
 
 Since all of my other attempts failed tragically, the only thing left to be altered was the sort. I thought that maybe sorting the array in the beginning is a bad idea. Maybe, I thought, if the array was sorted in the end, it won't be messed up.
-> **Logic** <br> `loop through the array using for` => `in each iteration, loop again using for and add the current value to all the following elements` => `add all that to a result array` => `using Set, pick out unique values` => ***`Sort the input array in ascending order`***
+> **Logic**
+ <br> 
+ `loop through the array using for` => `in each iteration, loop again using for and add the current value to all the following elements` => `add all that to a result array` => `using Set, pick out unique values` => ***`Sort the input array in ascending order`***
 
 This also didn't turn out as I expected, but something stranged showed up while checking the example inputs. '12' was positioned in the beginning of the array, instead of at the very end.
 
@@ -74,7 +80,7 @@ function solution(numbers) {
       result.push(numbers[i]+numbers[j])
     }
   }
-  
+
   const answer = Array.from(new Set(result)).sort((a,b) => a-b)
   return answer
 }
