@@ -35,3 +35,7 @@ googleAnalytics = "G-KJHZ868TNQ"
   # Enable parts of social widget
   instagram = "valenti700"
   github = "uk960214"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"

@@ -1,5 +1,7 @@
 ---
 title: "Enlightenment of the Day 21.01.11"
+categories: ["Enlightenment"]
+tags: ["Javascript", "Problem-Solving", "Frontend", "Array", "Map"]
 date: 2021-01-11T00:07:50+09:00
 draft: false
 ---
