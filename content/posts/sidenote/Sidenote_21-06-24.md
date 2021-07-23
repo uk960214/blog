@@ -1,5 +1,6 @@
 ---
 title: "Sidenote_21.06.24"
+categories: ["Sidenote"]
 date: 2021-06-25T23:22:12+09:00
 draft: false
 tags: ["CS50", "C", "File", "buffer", "sprintf", "Byte"]

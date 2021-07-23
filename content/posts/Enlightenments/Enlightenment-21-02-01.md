@@ -1,5 +1,6 @@
 ---
 title: "Enlightenment of the Day 21.02.01"
+categories: ["Enlightenment"]
 date: 2021-02-01T21:03:03+09:00
 tags: ["CS50", "C", "Algorithm", "Bubble Sort", "Recursion", "Tideman"]
 draft: false

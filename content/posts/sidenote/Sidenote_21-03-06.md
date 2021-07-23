@@ -1,5 +1,6 @@
 ---
 title: "[Sidenote/JS] Using Recursion to Get All Possible Combinations"
+categories: ["Sidenote"]
 date: 2021-03-06T21:33:37+09:00
 draft: false
 tags: ["JS", "Problem-Solving", "Algorithm", "Combination", "recursion"]

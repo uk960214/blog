@@ -1,5 +1,6 @@
 ---
 title: "[Sidenote/JS] Using Stack for Maximum Efficiency"
+categories: ["Sidenote"]
 date: 2021-06-28T22:57:42+09:00
 draft: false
 tags: ["JS", "Algorithm", "Stack", "Time Complexity"]

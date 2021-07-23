@@ -1,5 +1,6 @@
 ---
 title: "Enlightenment of the Day 21.02.13"
+categories: ["Enlightenment"]
 date: 2021-02-15T22:07:15+09:00
 tags: ["C", "Problem-Solving", "Datatype", "Image Filter", "Floats"]
 draft: false
