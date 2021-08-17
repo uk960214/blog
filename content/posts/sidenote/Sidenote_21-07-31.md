@@ -2,6 +2,7 @@
 title: "Sidenote_21.07.31"
 date: 2021-07-30T23:33:12+09:00
 draft: false
+categories: ["Sidenote"]
 tags: ["Redux", "Chorme", "Cache"]
 ---
 
